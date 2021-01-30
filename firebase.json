@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "news-demo-aibox",
     "public": "dist",
     "ignore": [
       "firebase.json",

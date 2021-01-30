@@ -52,7 +52,6 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import post from '../dummy/json.json';
 
 // @ is an alias to /src
 export default {

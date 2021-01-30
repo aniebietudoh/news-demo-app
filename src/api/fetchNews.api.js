@@ -9,9 +9,11 @@ const fetchNews = (pageSize) => httpClient
     },
   })
   .then((response) => {
+    console.log(response);
     return response.data;
   })
   .catch((error) => {
+    console.log(error);
     throw error.response;
   });
 
