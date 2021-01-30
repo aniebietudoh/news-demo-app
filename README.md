@@ -1,14 +1,17 @@
 # jobba
 
-## Project setup
+## Project setup.
+### CD into the project directory and run the command below.
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### After the dependencies has finished installing, then run the following command.
 ```
 npm run serve
 ```
+### The app should now be running on localhost, copy the URL and past in your browser to see the app running.
+
 
 ### Compiles and minifies for production
 ```
