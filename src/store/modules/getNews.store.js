@@ -17,7 +17,7 @@ const actions = {
       const newsResponse = await fetchNews(pageSize);
       commit('SET_NEWS', newsResponse);
     } catch (error) {
-      alert('Error getting news');
+      alert('Error Fetching News');
       throw error;
     }
   },
